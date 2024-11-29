@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="pt-5">
+    <h1 class="text-center">Bookmarker</h1>
+    <p class="text-center">
+      ..........................................................................................................................................
+    </p>
+    <h2 class="text-center">Bookmark your favorite site</h2>
+    <section class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <label for="siteName">Site Name</label>
+          <input
+            class="form-control"
+            type="text"
+            name="siteName"
+            id="siteName"
+          />
+        </div>
+        <div class="mb-4">
+          <label for="siteurl">Site URL</label>
+          <input class="form-control" type="text" name="siteurl" id="siteurl" />
+        </div>
+        <p class="text-center">
+          ..........................................................................................................................................
+        </p>
+        <div class="d-flex justify-content-center">
+          <button onclick="addSite()" class="btnn">Submit</button>
+        </div>
+        <!--  -->
+
+        <table class="table mt-4 text-center table-bordered">
+          <thead>
+            <th>Index</th>
+            <th class="">website Name</th>
+            <th class="">visit</th>
+            <th class="">delete</th>
+          </thead>
+          <tbody id="tBody"></tbody>
+        </table>
+        <!--  -->
+      </div>
+    </section>
+
+    <script src="js/java.js"></script>
+  </body>
+</html>

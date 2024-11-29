@@ -1,0 +1,12 @@
+body {
+  background-color: blanchedalmond;
+  font-family: "Pacifico", cursive;
+}
+
+.btnn {
+  background: tomato;
+  border-radius: 5px;
+  width: 100px;
+  border-color: transparent;
+  color: white;
+}
